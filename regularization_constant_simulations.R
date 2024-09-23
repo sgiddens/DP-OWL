@@ -772,9 +772,11 @@ plot.comparison.data.P <- function(epsilons, sample.sizes, comparison.data,
 ############################
 ### CAMERA-READY FIGURES ###
 ############################
-### NOTE: Appropriate subfolders within RegConstFigures/ should be added to hold
-### the simulation figure results. Folder names should match "subfolder" 
-### argument in each plotting function.
+### NOTE: Before running the below simulations, you will need to create folders
+### "RegConstData/" and "RegConstFigures/" to hold the results. Appropriate 
+### subfolders within RegConstFigures/ should also be added to hold the 
+### simulation figure results. Subfolder names should match "subfolder"argument 
+### in each plotting function.
 epsilons <- c(0.5, 1, 5, 20, 150)
 sample.sizes <- c(200, 500, 1000, 2000)
 
